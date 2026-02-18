@@ -1,4 +1,4 @@
-export type ViewState = 'onboarding' | 'feed' | 'product-detail' | 'upload' | 'profile';
+export type ViewState = 'onboarding' | 'feed' | 'product-detail' | 'upload' | 'profile' | 'cart';
 
 export interface Product {
     id: string;
@@ -10,4 +10,6 @@ export interface Product {
     brand: string;
     description?: string;
     likes?: boolean;
+    category?: string;
+    condition?: string;
 }
