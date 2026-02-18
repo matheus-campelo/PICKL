@@ -1,0 +1,7 @@
+{
+  "name": "PICKL",
+  "description": "A neo-retro streetwear marketplace turning trash to treasure. Buy, sell, and trade vintage gear with a gamified, acid-aesthetic experience.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
